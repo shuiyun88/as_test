@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/v_wait_order"
+                style="@style/display_main_title_txt_style"
+                android:background="@drawable/corner_bg_wait_hint"
+                android:text="备餐中" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/wait_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/v_take_order"
+                style="@style/display_main_title_txt_style"
+                android:background="@drawable/corner_bg_take_hint"
+                android:text="请取餐" />
+
+            <LinearLayout
+                android:id="@+id/ll_new_take_order"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/corner_bg_yellow_normal"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:weightSum="8">
+
+                <TextView
+                    android:id="@+id/tv_take_please"
+                    style="@style/display_new_take_txt_style"
+                    android:layout_weight="1"
+                    android:text="请"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_take_orderno"
+                    style="@style/display_new_take_txt_style"
+                    android:layout_weight="2"
+                    android:text="1001"
+                    android:textColor="@color/white"
+                    android:textSize="100sp" />
+
+                <TextView
+                    android:id="@+id/tv_take_here"
+                    style="@style/display_new_take_txt_style"
+                    android:layout_weight="1"
+                    android:text="到窗口"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_take_window_name"
+                    style="@style/display_new_take_txt_style"
+                    android:layout_weight="2"
+                    android:text="测试窗口"
+                    android:textColor="@color/white"
+                    android:textSize="100sp" />
+
+                <TextView
+                    android:id="@+id/tv_take_order_away"
+                    style="@style/display_new_take_txt_style"
+                    android:layout_weight="2"
+                    android:text="取餐"
+                    android:textColor="@color/white"
+                    android:textSize="100sp" />
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/takefood_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/v_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textColor="@color/cl_red"
+            android:textSize="40sp" />
+    </LinearLayout>
+</LinearLayout>

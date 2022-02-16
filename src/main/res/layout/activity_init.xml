@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/activity_header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/manage_center_horiz_margin"
+        android:layout_marginTop="@dimen/manage_center_vertical_margin"
+        android:layout_marginRight="@dimen/manage_center_horiz_margin"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/panel_center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect_bg_gray_stroke"
+                android:orientation="vertical"
+                android:padding="1dp">
+
+                <!--终端号-->
+                <LinearLayout style="@style/para_control_tab_line_container_style">
+
+                    <TextView
+                        style="@style/para_control_tab_left_text_style"
+                        android:text="终端号" />
+
+                    <LinearLayout style="@style/para_control_tab_right_container_style">
+
+                        <EditText
+                            android:id="@+id/init_param_termno"
+                            style="@style/param_config_et_devphyid_style" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!--点餐IP-->
+                <include layout="@layout/horiz_divider" />
+
+                <LinearLayout style="@style/para_control_tab_line_container_style">
+
+                    <TextView
+                        style="@style/para_control_tab_left_text_style"
+                        android:text="服务IP" />
+
+                    <LinearLayout style="@style/para_control_tab_right_container_style">
+
+                        <EditText
+                            android:id="@+id/init_param_ip"
+                            android:inputType="text"
+                            style="@style/param_config_et_style" />
+                    </LinearLayout>
+                </LinearLayout>
+                <!--点餐PORT-->
+                <include layout="@layout/horiz_divider" />
+
+                <LinearLayout style="@style/para_control_tab_line_container_style">
+
+                    <TextView
+                        style="@style/para_control_tab_left_text_style"
+                        android:text="端口" />
+
+                    <LinearLayout style="@style/para_control_tab_right_container_style">
+
+                        <EditText
+                            android:id="@+id/init_param_port"
+                            android:inputType="number"
+                            android:maxLength="8"
+                            style="@style/param_config_et_style" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

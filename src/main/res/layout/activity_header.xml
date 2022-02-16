@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/activity_topbar_height"
+    android:background="@color/light_black1">
+
+    <TextView
+        android:id="@+id/panel_back"
+        style="@style/tv_back_style"
+        android:layout_marginLeft="@dimen/activity_topbar_back_left_margin"
+        android:drawableLeft="@drawable/icon_back"
+        android:drawablePadding="@dimen/activity_title_back_drawable_padding"
+        android:text="返回" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/activity_topbar_title_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_save"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:minWidth="@dimen/panel_title_right_minwidth"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/activity_title_back_text_vertical_margin"
+        android:layout_marginRight="@dimen/activity_topbar_back_left_margin"
+        android:layout_marginTop="@dimen/activity_title_back_text_vertical_margin"
+        android:background="@drawable/select_bg_back"
+        android:drawablePadding="@dimen/activity_title_back_drawable_padding"
+        android:gravity="center"
+        android:paddingLeft="@dimen/activity_title_back_text_horiz_padding"
+        android:paddingRight="@dimen/activity_title_back_text_horiz_padding"
+        android:text="保存"
+        android:textColor="@color/white"
+        android:textSize="@dimen/activity_topbar_back_text_size"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,123 @@
+<resources>
+
+    <!--所有activity取消默认描绘-->
+    <style name="activity_default_style" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <!--启动界面,防止卡顿黑屏-->
+    <style name="activity_splash_style" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="tv_back_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginBottom">@dimen/activity_title_back_text_vertical_margin
+        </item>
+        <item name="android:layout_marginTop">@dimen/activity_title_back_text_vertical_margin</item>
+        <item name="android:background">@drawable/select_bg_back</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/activity_title_back_text_horiz_padding</item>
+        <item name="android:paddingRight">@dimen/activity_title_back_text_horiz_padding</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/activity_topbar_back_text_size</item>
+    </style>
+
+    <style name="para_control_tab_line_container_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="display_main_title_txt_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:paddingTop">10sp</item>
+        <item name="android:paddingBottom">10sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="display_new_take_txt_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">70sp</item>
+        <item name="android:paddingBottom">0sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="display_item_takefood_txt_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">55sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--通讯参数-->
+    <style name="param_config_et_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/corner_bg_gray_stroke</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/light_black2</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/para_control_et_padding</item>
+        <item name="android:layout_marginRight">@dimen/param_config_et_right_margin</item>
+        <item name="android:textSize">@dimen/para_control_et_text_size</item>
+    </style>
+
+    <style name="param_config_et_devphyid_style" parent="param_config_et_style">
+        <item name="android:inputType">numberDecimal</item>
+    </style>
+
+    <style name="para_control_tab_right_container_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">@dimen/para_control_right_container_left_margin
+        </item>
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="para_control_tab_left_text_style">
+        <item name="android:layout_width">@dimen/para_control_left_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/light_black2</item>
+        <item name="android:background">@color/dark_gray8</item>
+        <item name="android:textSize">@dimen/para_control_tab_left_text_size</item>
+        <item name="android:paddingRight">@dimen/para_control_left_padding_right</item>
+        <item name="android:gravity">center_vertical|right</item>
+    </style>
+
+    <style name="FloatingDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+</resources>

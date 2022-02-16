@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="head_title_size">40sp</dimen>
+    <dimen name="activity_title_back_drawable_padding">8dp</dimen>
+    <dimen name="activity_title_back_text_horiz_padding">20dp</dimen>
+    <dimen name="activity_title_back_text_vertical_margin">12dp</dimen>
+
+    <dimen name="key_text_size">30sp</dimen>
+    <dimen name="consume_text_size">25sp</dimen>
+    <dimen name="consume_text1_size">20sp</dimen>
+    <dimen name="consume_key_text_size">35sp</dimen>
+    <dimen name="consume_top_size">5dp</dimen>
+    <dimen name="consume_key_left_size">5dp</dimen>
+    <dimen name="consume_margin_left_size">2dp</dimen>
+    <dimen name="consume_margin_right_size">2dp</dimen>
+    <dimen name="consume_text_hint_size">20sp</dimen>
+    <dimen name="consume_text_btn_size">40sp</dimen>
+    <dimen name="dialog_consume_text_size">30sp</dimen>
+
+    <!--点餐菜品item-->
+    <dimen name="order_picture_price_margin_left">5dip</dimen>
+    <dimen name="order_picture_price_margin_right">5dip</dimen>
+    <dimen name="order_picture_price_margin_top">5dip</dimen>
+    <dimen name="order_picture_price_margin_start">5dip</dimen>
+    <dimen name="order_picture_price_margin_bottom">5dip</dimen>
+    <dimen name="order_picture_name_text_size1">29sp</dimen>
+    <dimen name="order_picture_name_text_size2">28sp</dimen>
+    <dimen name="order_picture_name_text_size3">25sp</dimen>
+
+    <dimen name="order_picture_inner_width4">504dip</dimen>
+
+    <dimen name="order_picture_ordered_cnt_size4">40sp</dimen>
+    <dimen name="order_picture_ordered_cnt_bg_size4">65dip</dimen>
+    <dimen name="order_picture_ordered_minus_bg_size4">85dip</dimen>
+    <dimen name="order_picture_ordered_minus_size4">60sp</dimen>
+    <dimen name="order_picture_name_text_size4">40sp</dimen>
+
+    <dimen name="order_picture_inner_width9">336dip</dimen>
+    <dimen name="order_picture_inner_height9">250dip</dimen>
+    <dimen name="order_picture_ordered_cnt_size9">38sp</dimen>
+    <dimen name="order_picture_ordered_cnt_bg_size9">58dip</dimen>
+    <dimen name="order_picture_ordered_minus_bg_size9">78dip</dimen>
+    <dimen name="order_picture_ordered_minus_size9">55sp</dimen>
+    <dimen name="order_picture_name_text_size9">35sp</dimen>
+
+    <dimen name="order_picture_inner_width16">252dip</dimen>
+    <dimen name="order_picture_inner_height16">185dip</dimen>
+    <dimen name="order_picture_ordered_cnt_size16">33sp</dimen>
+    <dimen name="order_picture_ordered_cnt_bg_size16">50dip</dimen>
+    <dimen name="order_picture_ordered_minus_bg_size16">70dip</dimen>
+    <dimen name="order_picture_ordered_minus_size16">50sp</dimen>
+    <dimen name="order_picture_name_text_size16">30sp</dimen>
+
+    <dimen name="order_picture_inner_width5">206dip</dimen>
+    <dimen name="order_picture_inner_height20">185dip</dimen>
+    <dimen name="order_picture_ordered_cnt_size20">30sp</dimen>
+    <dimen name="order_picture_ordered_cnt_bg_size20">45dip</dimen>
+    <dimen name="order_picture_ordered_minus_bg_size20">63dip</dimen>
+    <dimen name="order_picture_ordered_minus_size20">45sp</dimen>
+    <dimen name="order_picture_name_text_size20">30sp</dimen>
+
+    <dimen name="order_picture_inner_height25">145dip</dimen>
+    <dimen name="order_picture_ordered_cnt_size25">25sp</dimen>
+    <dimen name="order_picture_ordered_cnt_bg_size25">40sp</dimen>
+    <dimen name="order_picture_ordered_minus_bg_size25">55sp</dimen>
+    <dimen name="order_picture_ordered_minus_size25">38sp</dimen>
+    <dimen name="order_picture_name_text_size25">30sp</dimen>
+
+    <dimen name="order_picture_inner_height30">120dip</dimen>
+    <dimen name="order_picture_ordered_cnt_size30">25sp</dimen>
+    <dimen name="order_picture_ordered_cnt_bg_size30">35dip</dimen>
+    <dimen name="order_picture_ordered_minus_bg_size30">50dip</dimen>
+    <dimen name="order_picture_ordered_minus_size30">34sp</dimen>
+    <dimen name="order_picture_name_text_size30">30sp</dimen>
+
+    <dimen name="order_picture_inner_height35">110dip</dimen>
+    <dimen name="order_picture_ordered_cnt_size35">25sp</dimen>
+    <dimen name="order_picture_ordered_cnt_bg_size35">35dip</dimen>
+    <dimen name="order_picture_ordered_minus_bg_size35">50dip</dimen>
+    <dimen name="order_picture_ordered_minus_size35">30sp</dimen>
+    <dimen name="order_picture_ordered_price_size35">25sp</dimen>
+    <dimen name="order_picture_ordered_name_size35">30sp</dimen>
+
+    <dimen name="order_picture_inner_height40">96dip</dimen>
+    <dimen name="order_picture_ordered_cnt_size40">25sp</dimen>
+    <dimen name="order_picture_ordered_cnt_bg_size40">35dip</dimen>
+    <dimen name="order_picture_ordered_minus_bg_size40">50dip</dimen>
+    <dimen name="order_picture_ordered_minus_size40">35sp</dimen>
+    <dimen name="order_picture_ordered_price_size40">25sp</dimen>
+    <dimen name="order_picture_ordered_name_size40">25sp</dimen>
+
+    <dimen name="order_picture_inner_height45">85dip</dimen>
+    <dimen name="order_picture_ordered_cnt_size45">25sp</dimen>
+    <dimen name="order_picture_ordered_cnt_bg_size45">35dip</dimen>
+    <dimen name="order_picture_ordered_minus_bg_size45">50dip</dimen>
+    <dimen name="order_picture_ordered_minus_size45">35sp</dimen>
+    <dimen name="order_picture_ordered_price_size45">22sp</dimen>
+    <dimen name="order_picture_ordered_name_size45">25sp</dimen>
+
+    <dimen name="order_picture_inner_height50">76dip</dimen>
+    <dimen name="order_picture_ordered_cnt_size50">25sp</dimen>
+    <dimen name="order_picture_ordered_cnt_bg_size50">35dip</dimen>
+    <dimen name="order_picture_ordered_minus_bg_size50">52dip</dimen>
+    <dimen name="order_picture_ordered_minus_size50">35sp</dimen>
+    <dimen name="order_picture_ordered_price_size50">21sp</dimen>
+    <dimen name="order_picture_ordered_name_size50">25sp</dimen>
+
+    <dimen name="order_picture_inner_height55">69dip</dimen>
+    <dimen name="order_picture_ordered_cnt_size55">22sp</dimen>
+    <dimen name="order_picture_ordered_cnt_bg_size55">35dip</dimen>
+    <dimen name="order_picture_ordered_minus_bg_size55">50dip</dimen>
+    <dimen name="order_picture_ordered_minus_size55">35sp</dimen>
+    <dimen name="order_picture_ordered_price_size55">20sp</dimen>
+    <dimen name="order_picture_ordered_name_size55">25sp</dimen>
+
+    <dimen name="order_picture_inner_height60">67dip</dimen>
+    <dimen name="order_picture_ordered_cnt_size60">22sp</dimen>
+    <dimen name="order_picture_ordered_cnt_bg_size60">35dip</dimen>
+    <dimen name="order_picture_ordered_minus_bg_size60">50dip</dimen>
+    <dimen name="order_picture_ordered_minus_size60">35sp</dimen>
+    <dimen name="order_picture_ordered_price_size60">20sp</dimen>
+    <dimen name="order_picture_ordered_name_size60">25sp</dimen>
+
+    <!--点餐界面-->
+    <dimen name="order_picture_width">1054dip</dimen>
+    <dimen name="order_picture_height">802dip</dimen>
+    <dimen name="order_menu_width">228dip</dimen>
+    <dimen name="dialog_order_menu_width">300dip</dimen>
+    <dimen name="order_popwindow_height">600dip</dimen>
+    <!--点餐副屏-->
+    <dimen name="order_sec_item_width">200dp</dimen>
+    <dimen name="order_sec_item_height">180dp</dimen>
+    <dimen name="order_sec_item_cnt_height">70dp</dimen>
+    <dimen name="order_sec_item_cnt_width">70dp</dimen>
+    <dimen name="order_sec_text_size">18sp</dimen>
+    <dimen name="order_sec_text_width">80dip</dimen>
+    <dimen name="last_order_text_size">22sp</dimen>
+    <dimen name="order_sec_history_text_size">26sp</dimen>
+    <dimen name="orderb_sec_history_text_size">30sp</dimen>
+    <dimen name="order_sec_picture_ordered_cnt_size">45sp</dimen>
+    <!--菜品维护界面-->
+    <dimen name="dishfilter_block_gap">20dp</dimen>
+    <dimen name="dishfilter_padding_size">10dp</dimen>
+    <dimen name="dishfilter_btn_text_size">22sp</dimen>
+    <dimen name="dishfilter_text_size">30dp</dimen>
+    <dimen name="dishfilter_category_width">150dp</dimen>
+
+    <dimen name="dish_filter_menu_width">240dp</dimen>
+
+    <!--密码框-->
+    <dimen name="passwd_text_size">35sp</dimen>
+
+    <!--home页-->
+    <dimen name="home_net_state_vertical_padding">40dp</dimen>
+    <dimen name="home_net_state_text_size">30sp</dimen>
+    <dimen name="home_revenue_text_top_margin">50dp</dimen>
+    <dimen name="home_revenue_title_text_size">35sp</dimen>
+    <dimen name="home_revenue_value_top_margin">25dp</dimen>
+    <dimen name="home_revenue_value_text_size">20sp</dimen>
+    <dimen name="home_transdtl_text_top_margin">20dp</dimen>
+    <dimen name="home_transdtl_drawable_padding">5dp</dimen>
+    <dimen name="home_trandtl_num_top_margin">5dp</dimen>
+    <dimen name="home_transdtl_num_text_size">20sp</dimen>
+    <dimen name="home_ordinary_drawable_padding">10dp</dimen>
+    <dimen name="home_order_online_drawable_padding">10dp</dimen>
+    <dimen name="home_manage_drawable_padding">10dp</dimen>
+    <dimen name="home_link_check_drawable_padding">10dp</dimen>
+    <dimen name="home_manually_sign_drawable_padding">10dp</dimen>
+    <dimen name="home_query_para_drawable_padding">10dp</dimen>
+    <dimen name="home_update_blacklist_drawable_padding">10dp</dimen>
+
+    <!--Activity头部-->
+    <dimen name="activity_topbar_back_left_margin">20dp</dimen>
+    <dimen name="activity_topbar_height">70dp</dimen>
+    <dimen name="activity_topbar_back_text_size">20sp</dimen>
+    <dimen name="activity_topbar_title_text_size">30sp</dimen>
+
+    <!--分割线-->
+    <dimen name="horiz_divider_height">1dp</dimen>
+    <dimen name="horiz_dotline_height">2dp</dimen>
+    <dimen name="vertical_divider_width">1dp</dimen>
+
+    <!--init初始化页-->
+    <dimen name="init_btn_swipe_nccard_text_size">32sp</dimen>
+    <dimen name="init_swip_card_top_margin">40dp</dimen>
+    <dimen name="init_swipe_card_btn_width">300dp</dimen>
+
+    <!--管理页-->
+    <dimen name="manage_center_vertical_margin">30dp</dimen>
+    <dimen name="manage_center_horiz_margin">185dp</dimen>
+    <dimen name="manage_table_left_padding">40dp</dimen>
+    <dimen name="manage_table_row_left_padding">16dp</dimen>
+    <dimen name="manage_table_row_right_padding">30dp</dimen>
+    <dimen name="manage_table_text_size">24sp</dimen>
+    <dimen name="manage_table_text_left_margin">30dp</dimen>
+    <dimen name="manage_item_height">65dp</dimen>
+
+    <!--参数查询-->
+    <dimen name="para_query_item_left_padding">20dp</dimen>
+    <dimen name="para_query_name_text_size">25sp</dimen>
+    <dimen name="para_query_value_text_size">25sp</dimen>
+
+    <!--参数控制-->
+    <dimen name="para_control_horiz_margin">130dp</dimen>
+    <dimen name="para_control_item_height">80dp</dimen>
+    <dimen name="para_control_left_width">220dp</dimen>
+    <dimen name="para_control_panel_padding">1dp</dimen>
+    <dimen name="para_control_et_padding">20dp</dimen>
+    <dimen name="para_control_et_text_size">23sp</dimen>
+    <dimen name="para_control_tab_left_text_size">23sp</dimen>
+    <dimen name="para_control_left_padding_right">25dp</dimen>
+    <dimen name="para_control_box_text_size">25sp</dimen>
+    <dimen name="para_control_right_container_left_margin">30dp</dimen>
+    <dimen name="para_control_radio_left_text_size">20sp</dimen>
+    <dimen name="para_control_right_interval">30dp</dimen>
+
+    <!--营业额-->
+    <dimen name="revenue_transdtl_text_size">24sp</dimen>
+    <dimen name="revenue_transdtl_num_text_size">30sp</dimen>
+    <dimen name="revenue_panel_horiz_margin">20dp</dimen>
+    <dimen name="revenue_item_text_size">21sp</dimen>
+    <dimen name="revenue_item_header_text_size">21sp</dimen>
+    <dimen name="revenue_header_title_left_margin">50dp</dimen>
+    <dimen name="revenue_header_right_vertical_padding">5dp</dimen>
+    <dimen name="revenue_header_right_horiz_padding">10dp</dimen>
+    <dimen name="revenue_header_right_text_left_margin">5dp</dimen>
+    <dimen name="revenue_transdtl_num_top_margin">5dp</dimen>
+    <dimen name="revenue_all_transdtl_left_margin">20dp</dimen>
+    <dimen name="revenue_transdtl_detail_panel_vertical_margin">18dp</dimen>
+    <dimen name="revenue_transdtl_detail_text_left_margin">8dp</dimen>
+    <dimen name="revenue_transdtl_detail_text_size">20sp</dimen>
+    <dimen name="revenue_header_title_horiz_padding">15dp</dimen>
+    <dimen name="revenue_header_title_vertical_padding">5dp</dimen>
+    <dimen name="revenue_lv_item_vertical_padding">12dp</dimen>
+    <dimen name="revenue_lv_header_vertical_padding">1dp</dimen>
+
+    <!--通讯参数-->
+    <dimen name="param_config_et_right_margin">80dp</dimen>
+
+    <!--密码框-->
+    <dimen name="dialog_pwd_horiz_padding">33dp</dimen>
+
+    <!--密码修改-->
+    <dimen name="pwd_modify_input_new_pwd">28sp</dimen>
+    <dimen name="pwd_modify_text_top_margin">32dp</dimen>
+    <dimen name="pwd_modify_item_height">78dp</dimen>
+    <dimen name="pwd_modify_6pwd_top_margin">25dp</dimen>
+    <dimen name="pwd_modify_keybord_top_margin">10dp</dimen>
+    <dimen name="pwd_modify_keybord_item_width">148dp</dimen>
+    <dimen name="pwd_modify_keybord_item_height">80dp</dimen>
+    <dimen name="pwd_sec_modify_keybord_item_width">105dp</dimen>
+    <dimen name="pwd_sec_modify_keybord_item_height">60dp</dimen>
+    <dimen name="pwd_sec_modify_keybord_item_text_size">25sp</dimen>
+
+
+    <dimen name="round_yellow_size">20dp</dimen>
+    <dimen name="round_pwd_dot_size">20dp</dimen>
+    <dimen name="pwd_modify_keybord_item_text_size">42sp</dimen>
+    <dimen name="pwd_modify_grid_vetical_space">5dp</dimen>
+    <dimen name="pwd_modify_grid_horiz_space">5dp</dimen>
+    <dimen name="pwd_modify_item_left_margin">10dp</dimen>
+    <dimen name="pwd_sec_modify_item_left_margin">5dp</dimen>
+    <dimen name="pwd_modify_dot_padding">26dp</dimen>
+
+    <!--普通消费-->
+    <dimen name="ordinary_consu_outpanel_horiz_margin">40dp</dimen>
+    <dimen name="ordinary_consu_outpanel_vetical_margin">20dp</dimen>
+    <dimen name="ordinary_consu_outpanel_bottom_margin">20dp</dimen>
+    <dimen name="ordinary_consu_right_panel_left_margin">20dp</dimen>
+    <dimen name="ordinary_consu_leftpanel1_horiz_padding">15dp</dimen>
+    <dimen name="ordinary_consu_leftpanel1_vetical_padding">25dp</dimen>
+    <dimen name="ordinary_consu_leftpanel2_vetical_padding">18dp</dimen>
+    <dimen name="ordinary_consu_panel1_text_size">24sp</dimen>
+    <dimen name="orinary_consume_panel1_righttext_left_margin">60dp</dimen>
+    <dimen name="orinary_consume_panel1_bottomtext_top_margin">10dp</dimen>
+    <dimen name="ordinary_consu_tabrow_top_margin">10dp</dimen>
+    <dimen name="ordinary_consu_panel2_text_size">32sp</dimen>
+    <dimen name="ordinary_consu_panel3_title_text_size">30sp</dimen>
+    <dimen name="ordinary_consu_panel3_title_size">28sp</dimen>
+    <dimen name="ordinary_consu_panel3_text_size">32sp</dimen>
+    <dimen name="ordinary_consu_panel3_small_text_size">20sp</dimen>
+    <dimen name="orinary_consume_orderamt_left_margin">15dp</dimen>
+    <dimen name="ordinary_consu_dash_Line_width">10dp</dimen>
+    <dimen name="ordinary_consu_dash_Line_gap">5dp</dimen>
+    <dimen name="ordinary_consu_btn_line_top_margin">10dp</dimen>
+    <dimen name="ordinary_consu_panel2_top_margin">10dp</dimen>
+    <dimen name="ordinary_consu_btn_left_margin">20dp</dimen>
+    <dimen name="ordinary_consu_right_panel_padding">20dp</dimen>
+    <dimen name="ordinary_consu_panel3_text_vertical_padding">10dp</dimen>
+    <dimen name="ordinary_consu_sec_panel3_text_vertical_padding">8dp</dimen>
+    <dimen name="ordinary_consu_keybord_item_height">80dp</dimen>
+    <dimen name="ordinary_consu_keybord_item_text_size">42sp</dimen>
+    <dimen name="orinary_consu_keybord_item_divider_width">10dp</dimen>
+    <dimen name="orinary_consu_sec_keybord_item_divider_width">5dp</dimen>
+    <dimen name="orinary_consu_keybord_item_vertical_divider_width">10dp</dimen>
+    <dimen name="orinary_consu_sec_keybord_item_vertical_divider_width">5dp</dimen>
+    <dimen name="ordinary_consu_btn_corner">5dip</dimen>
+    <dimen name="ordinary_consu_exit_btn_height">80dp</dimen>
+
+    <!--corner radus-->
+    <dimen name="corner_radius_one">12dip</dimen>
+    <dimen name="corner_radius">5dip</dimen>
+    <dimen name="corner_back">5dip</dimen>
+    <dimen name="corner_radius_order">5dip</dimen>
+    <dimen name="init_swipe_paracard_left_margin">10dp</dimen>
+    <dimen name="init_swipe_card_btn_height">80dp</dimen>
+
+    <dimen name="home_signal_left_margin">10dp</dimen>
+    <dimen name="dialog_corner_size">10dp</dimen>
+    <dimen name="corner_radius_five">5dp</dimen>
+    <dimen name="corner_radius_ten">10dp</dimen>
+    <dimen name="dialog_swipe_card_text_top_margin">44dp</dimen>
+    <dimen name="dialog_swipe_card_text_size">38sp</dimen>
+
+    <!--参数加载-->
+    <dimen name="load_param_panel_horiz_margin">300dp</dimen>
+    <dimen name="load_param_panel_top_margin">20dp</dimen>
+    <dimen name="load_param_panel_padding">15dp</dimen>
+    <dimen name="load_param_btn_vetical_margin">20dp</dimen>
+    <dimen name="load_param_btn_verical_padding">10dp</dimen>
+    <dimen name="load_param_btn_text_size">30sp</dimen>
+    <dimen name="load_param_btn2_left_margin">20dp</dimen>
+    <dimen name="load_param_btn_panel_horiz_margin">200dp</dimen>
+    <dimen name="load_param_info_text_size">25sp</dimen>
+    <dimen name="load_param_exit_text_size">23sp</dimen>
+    <dimen name="load_param_exit_horiz_padding">15dp</dimen>
+    <dimen name="load_param_exit_vetical_padding">5dp</dimen>
+
+
+    <!--卡信息展示-->
+    <dimen name="card_info_inner_margin">30dp</dimen>
+    <dimen name="card_info_inner_padding">30dp</dimen>
+    <dimen name="card_info_left_text_size">28sp</dimen>
+    <dimen name="card_info_dialog_width">541dp</dimen>
+    <dimen name="card_info_dialog_height">549dp</dimen>
+    <dimen name="card_info_text_line_top_margin">25dp</dimen>
+    <dimen name="card_info_text_line1_top_margin">40dp</dimen>
+    <dimen name="card_info_right_text_left_margin">20dp</dimen>
+    <dimen name="card_info_close_text_size">25sp</dimen>
+    <dimen name="card_info_close_text_vetical_padding">16dp</dimen>
+    <dimen name="card_info_close_text_horiz_padding">41dp</dimen>
+    <dimen name="card_info_close_panel_top_margin">60dp</dimen>
+    <dimen name="card_info_close_panel_bottom_margin">30dp</dimen>
+
+
+    <!--点餐管理菜单-->
+    <dimen name="dialog_order_menu_panenl_horiz_padding">20dp</dimen>
+    <dimen name="order_purchase_width">940dip</dimen>
+    <dimen name="order_purchase_height">550dip</dimen>
+    <dimen name="order_purchase_out_panel_padding">39dp</dimen>
+
+    <dimen name="order_down_btn_text">45sp</dimen>
+    <dimen name="order_big_picture_text">50sp</dimen>
+    <dimen name="dialog_order_menu_line_verical_padding">5dp</dimen>
+    <dimen name="dialog_order_menu_line_horiz_padding">5dp</dimen>
+    <dimen name="dialog_order_menu_img_width">72dp</dimen>
+    <dimen name="dialog_order_menu_text_size">30sp</dimen>
+    <dimen name="dialog_order_menu_text_left_margin">28dp</dimen>
+    <dimen name="dialog_order_menu_item_top_margin">12dp</dimen>
+    <dimen name="dialog_sec_order_menu_item_top_margin">6dp</dimen>
+
+
+    <!--副屏支付Dialog-->
+    <dimen name="order_sec_purchase_width">650dip</dimen>
+    <dimen name="order_sec_purchase_height">400dip</dimen>
+    <dimen name="order_sec_purchase_out_panel_padding">25dp</dimen>
+    <dimen name="order_sec_purchase_left_panel_width">330dp</dimen>
+    <dimen name="order_sec_purchase_left_title_height">45dp</dimen>
+    <dimen name="order_sec_purchase_left_title_size">18sp</dimen>
+    <dimen name="order_sec_purchase_left_item_txt_size">15sp</dimen>
+    <dimen name="order_sec_purchase_item_horiz_padding">15dp</dimen>
+    <dimen name="order_sec_purchase_item_vetical_padding">5dp</dimen>
+    <dimen name="order_sec_purchase_colum2_left_margin">5dp</dimen>
+    <dimen name="order_sec_payway_or_img_top_margin">10dp</dimen>
+    <dimen name="order_sec_purchase_payway_top_margin">10dp</dimen>
+    <dimen name="order_sec_purchase_payway_left_margin">15dp</dimen>
+    <dimen name="order_sec_payway_line_top_margin">15dp</dimen>
+    <dimen name="order_sec_purchase_payway_txt_size">16sp</dimen>
+    <dimen name="order_sec_swipcard_line_top_margin">15dp</dimen>
+    <dimen name="order_sec_purchase_pay_suc_size">30sp</dimen>
+    <dimen name="order_sec_purchase_payinfo_txt_size">18sp</dimen>
+    <dimen name="order_sec_purchase_payinfo_top_margin">10dp</dimen>
+    <dimen name="order_sec_purchase_btn_close_bottom_margin">20dp</dimen>
+    <dimen name="order_sec_purchase_btn_close_top_margin">20dp</dimen>
+    <dimen name="sec_card_info_close_text_vetical_padding">10dp</dimen>
+    <dimen name="sec_card_info_close_text_horiz_padding">25dp</dimen>
+    <dimen name="sec_card_info_close_text_size">18sp</dimen>
+
+    <dimen name="dialog_phone_order_width">697dp</dimen>
+    <dimen name="dialog_phone_order_height">420dp</dimen>
+    <dimen name="dialog_no_business_clock_txtsize">24sp</dimen>
+    <dimen name="dialog_no_business_inner_margin">40dp</dimen>
+    <dimen name="dialog_no_business_clockline_margin">20dp</dimen>
+    <dimen name="dialog_no_business_clock_left_margin">10dp</dimen>
+    <dimen name="dialog_no_business_txt_left_margin">20dp</dimen>
+    <dimen name="dialog_no_business_txt_size">45sp</dimen>
+    <dimen name="dialog_no_business_windowname_top_margin">25dp</dimen>
+    <dimen name="dialog_no_business_windowname_txtsize">30sp</dimen>
+    <dimen name="dialog_no_business_time_top_margin">20dp</dimen>
+    <dimen name="dialog_no_business_time_txtsize">25sp</dimen>
+    <dimen name="dialog_no_business_closebtn_vertical_margin">40dp</dimen>
+    <dimen name="dialog_no_business_closebtn_horiz_padding">90dp</dimen>
+
+
+    <!--刷系统卡参数卡-->
+    <dimen name="dialog_swipe_card_width">462dp</dimen>
+    <dimen name="dialog_swipe_card_height">482dp</dimen>
+
+
+    <!--点餐首页-->
+    <dimen name="order_panel_clear_vertical_margin">15dp</dimen>
+    <dimen name="order_clear_txt_left_margin">5dp</dimen>
+    <dimen name="order_clear_txt_size">24sp</dimen>
+    <dimen name="order_qrcode_height">250dp</dimen>
+    <dimen name="order_pay_panel_horiz_padding">10dp</dimen>
+
+
+    <!--支付等待页-->
+    <dimen name="order_purchase_left_panel_width">470dp</dimen>
+    <dimen name="order_purchase_left_title_height">72dp</dimen>
+    <dimen name="order_purchase_left_title_size">24sp</dimen>
+    <dimen name="order_purchase_left_item_txt_size">22sp</dimen>
+    <dimen name="order_purchase_colum2_left_margin">12dp</dimen>
+    <dimen name="order_purchase_item_vetical_padding">5dp</dimen>
+    <dimen name="order_purchase_item_horiz_padding">10dp</dimen>
+    <dimen name="order_purchase_item_foodnum_width">50dp</dimen>
+    <dimen name="order_purchase_item_combo_foodnum_width">40dp</dimen>
+    <dimen name="order_purchase_item_foodprice_width">100dp</dimen>
+    <dimen name="order_purchase_item_combo_foodprice_width">60dp</dimen>
+    <dimen name="order_purchase_btn_close_vertical_margin">20dp</dimen>
+    <dimen name="order_purchase_payway_left_margin">26dp</dimen>
+    <dimen name="ordinary_sec_purchase_payway_left_margin">15dp</dimen>
+    <dimen name="order_purchase_payway_txt_size">20sp</dimen>
+    <dimen name="order_payway_line_top_margin">22dp</dimen>
+    <dimen name="order_purchase_pay_suc_size">45sp</dimen>
+    <dimen name="order_take_suc_size">40sp</dimen>
+    <dimen name="order_purchase_pay_suc_top_margin">10dp</dimen>
+    <dimen name="order_purchase_payinfo_top_margin">5dp</dimen>
+    <dimen name="order_purchase_payinfo_txt_size">23sp</dimen>
+    <dimen name="order_purchase_payway_top_margin">46dp</dimen>
+    <dimen name="dialog_swipe_card_close_margin">30dp</dimen>
+    <dimen name="ordinary_consume_payway_txt_size">21sp</dimen>
+
+    <dimen name="order_griditem_horiz_space">2dp</dimen>
+    <dimen name="order_griditem_vertical_space">2dp</dimen>
+    <dimen name="order_panel_netstate_txt_size">24sp</dimen>
+    <dimen name="order_panel_netstate_left_margin">10dp</dimen>
+    <dimen name="order_ordered_food_vetical_margin">10dp</dimen>
+    <dimen name="order_ordered_food_txt_size">28sp</dimen>
+    <dimen name="order_panel_netstate_height">60dp</dimen>
+    <dimen name="order_ordered_food_item_divider_height">3dp</dimen>
+    <dimen name="order_panel_right_horiz_margin">5dp</dimen>
+    <dimen name="order_panel_pay_height">200dp</dimen>
+    <dimen name="order_panel_clear_height">60dp</dimen>
+    <dimen name="order_order_amt_txt_size">48sp</dimen>
+    <dimen name="order_order_amt_top_margin">24dp</dimen>
+    <dimen name="order_order_pay_top_margin">20dp</dimen>
+    <dimen name="order_order_pay_height">70dp</dimen>
+    <dimen name="order_order_pay_txt_size">30sp</dimen>
+    <dimen name="order_order_pay_bottom_margin">30dp</dimen>
+    <dimen name="order_select_item_padding">11dp</dimen>
+    <dimen name="order_select_item_foodcnt_width">35dp</dimen>
+    <dimen name="dialog_pwd_height">580dp</dimen>
+    <dimen name="dialog_pwd_width">530dp</dimen>
+    <dimen name="pwd_modify_keybord_clear_txt_size">32sp</dimen>
+    <dimen name="pwd_modify_keybord_bottom_margin">40dp</dimen>
+    <dimen name="revenue_title_date_txt_size">27sp</dimen>
+    <dimen name="revenue_transdtl_num_height">55dp</dimen>
+    <dimen name="panel_title_right_minwidth">120dp</dimen>
+    <dimen name="orinary_consume_panel11_vetical_padding">32dp</dimen>
+    <dimen name="order_payway_or_img_top_margin">24dp</dimen>
+    <dimen name="order_swipcard_line_top_margin">20dp</dimen>
+    <dimen name="manage_center_panel_padding">1dp</dimen>
+    <dimen name="manage_para_query_center_padding">1dp</dimen>
+    <dimen name="para_query_item_height">60dp</dimen>
+    <dimen name="para_config_panel_vertical_margin">40dp</dimen>
+    <dimen name="para_config_panel_horiz_margin">152dp</dimen>
+
+
+    <dimen name="sec_left_panel_padding">5dp</dimen>
+    <dimen name="sec_shop_name_txt_size">35sp</dimen>
+    <dimen name="sec_shop_name_top_margin">10dp</dimen>
+    <dimen name="sec_history_order_title_top_margin">5dp</dimen>
+    <dimen name="sec_history_order_title_txt_size">15sp</dimen>
+    <dimen name="sec_history_order_width">180dp</dimen>
+    <dimen name="sec_history_order_divider_top_margin">10dp</dimen>
+    <dimen name="sec_history_order_divider_height">2dp</dimen>
+    <dimen name="history_food_list_divider_height">10dp</dimen>
+    <dimen name="sec_history_order_item_horiz_padding">5dp</dimen>
+    <dimen name="sec_history_order_item_vetical_padding">6dp</dimen>
+    <dimen name="sec_order_result_txt_size">25sp</dimen>
+    <dimen name="sec_wait_order_horiz_padding">10dp</dimen>
+    <dimen name="sec_sum_amt_right_margin">40dp</dimen>
+    <dimen name="sec_wait_order_height">40dp</dimen>
+    <dimen name="sec_ordering_food_gv_top_margin">5dp</dimen>
+    <dimen name="sec_ordering_food_gv_horiz_space">1dp</dimen>
+    <dimen name="sec_ordering_food_gv_vetical_space">5dp</dimen>
+    <dimen name="sec_ordered_food_num_top_margin">6dp</dimen>
+    <dimen name="sec_ordered_food_num_txt_size">22sp</dimen>
+    <dimen name="sec_ordered_food_num_height">40dp</dimen>
+    <dimen name="last_order_sec_grid_top_margin">6dp</dimen>
+    <dimen name="last_order_sec_grid_vetical_space">10dp</dimen>
+    <dimen name="last_order_sec_grid_horiz_space">5dp</dimen>
+    <dimen name="sec_horiz_panel_divider_width">2dp</dimen>
+    <dimen name="order_sec_picture_foodname_height">45dp</dimen>
+    <dimen name="order_sec_picture_foodprice_txt_size">25sp</dimen>
+    <dimen name="order_sec_picture_foodprice_top_margin">5dp</dimen>
+    <dimen name="order_sec_picture_foodprice_right_padding">5dp</dimen>
+    <dimen name="order_sec_picture_foodname_txt_size">30sp</dimen>
+    <dimen name="order_pic_count_corner_size">145dip</dimen>
+    <dimen name="order_sec_picture_foodname_horiz_padding">3dp</dimen>
+    <dimen name="sec_ordered_gv_item_height">145dp</dimen>
+    <dimen name="item_ordery_goods_height">250dp</dimen>
+    <dimen name="order_main_right_width">240dp</dimen>
+    <dimen name="order_main_gv_padding">1dp</dimen>
+    <dimen name="order_sec_picture_foodname_vetical_padding">10dp</dimen>
+
+
+    <!--服务员模式副屏-->
+    <dimen name="orderx_sec_right_width">190dp</dimen>
+    <dimen name="orderx_sec_panel_netstate_height">50dp</dimen>
+    <dimen name="orderx_sec_panel_goods_category_left_padding">5dp</dimen>
+    <dimen name="orderx_sec_item_goods_category_horiz_padding">12dp</dimen>
+    <dimen name="orderx_sec_item_goods_category_minwidth">70dp</dimen>
+    <dimen name="orderx_sec_item_goods_category_txt_size">20sp</dimen>
+    <dimen name="orderx_sec_simple_height_row8">86dip</dimen>
+    <dimen name="orderx_sec_foodname_txt_size_row7">20sp</dimen>
+    <dimen name="orderx_sec_main_food_name_left_margin">18dp</dimen>
+    <dimen name="orderx_sec_main_food_name_top_margin">15dp</dimen>
+
+
+    <!--2*2  尺寸-->
+    <dimen name="order_picture_inner_height4">346dip</dimen>
+    <dimen name="order_food_price_txt_size_colum2">35dp</dimen>
+    <dimen name="order_food_cnt_txt_size_colum2">70dp</dimen>
+    <dimen name="order_food_num_minus_width_colum2">100dp</dimen>
+    <dimen name="order_food_num_minus_txt_size_colum2">50sp</dimen>
+    <dimen name="order_foodname_txt_size_colum2">40sp</dimen>
+    <dimen name="order_foodname_txt_padding_colum2">10dp</dimen>
+
+    <!--3*3  尺寸-->
+    <dimen name="order_picture_height_colum3">228dip</dimen>
+    <dimen name="order_food_price_txt_size_colum3">30dp</dimen>
+    <dimen name="order_food_cnt_width_colum3">60dp</dimen>
+    <dimen name="order_food_cnt_txt_size_colum3">30sp</dimen>
+    <dimen name="order_food_num_minus_width_colum3">80dp</dimen>
+    <dimen name="order_food_num_minus_txt_size_colum3">45sp</dimen>
+    <dimen name="order_foodname_txt_size_colum3">35sp</dimen>
+    <dimen name="order_foodname_txt_padding_colum3">8dp</dimen>
+
+    <!--4*4  尺寸-->
+    <dimen name="order_picture_height_colum4">167dip</dimen>
+    <dimen name="order_food_price_txt_size_colum4">25dp</dimen>
+    <dimen name="order_food_cnt_width_colum4">50dp</dimen>
+    <dimen name="order_food_cnt_txt_size_colum4">25sp</dimen>
+    <dimen name="order_food_num_minus_width_colum4">60dp</dimen>
+    <dimen name="order_food_num_minus_txt_size_colum4">40sp</dimen>
+    <dimen name="order_foodname_txt_size_colum4">30sp</dimen>
+    <dimen name="order_foodname_txt_padding_colum4">6dp</dimen>
+
+    <!--5*4  尺寸-->
+    <dimen name="order_picture_height_colum5">167dip</dimen>
+    <dimen name="order_food_price_txt_size_colum5">25sp</dimen>
+    <dimen name="order_food_cnt_width_colum5">40dp</dimen>
+    <dimen name="order_food_cnt_txt_size_colum5">25sp</dimen>
+    <dimen name="order_food_num_minus_width_colum5">65dp</dimen>
+    <dimen name="order_food_num_minus_txt_size_colum5">35sp</dimen>
+    <dimen name="order_foodname_txt_size_colum5">25sp</dimen>
+    <dimen name="order_foodname_txt_padding_colum5">5dp</dimen>
+
+    <!--5*5  尺寸-->
+    <dimen name="order_picture_height_colum55">132dip</dimen>
+    <dimen name="order_food_price_txt_size_colum55">25sp</dimen>
+    <dimen name="order_food_cnt_width_colum55">40dp</dimen>
+    <dimen name="order_food_cnt_txt_size_colum55">20sp</dimen>
+    <dimen name="order_food_num_minus_width_colum55">60dp</dimen>
+    <dimen name="order_food_num_minus_txt_size_colum55">35sp</dimen>
+    <dimen name="order_foodname_txt_size_colum55">25sp</dimen>
+    <!--5*6  尺寸-->
+    <dimen name="order_picture_height_colum56">107dip</dimen>
+    <dimen name="order_food_price_txt_size_colum56">25sp</dimen>
+    <dimen name="order_food_cnt_width_colum56">40dp</dimen>
+    <dimen name="order_food_cnt_txt_size_colum56">20sp</dimen>
+    <dimen name="order_food_num_minus_width_colum56">60dp</dimen>
+    <dimen name="order_food_num_minus_txt_size_colum56">35sp</dimen>
+    <dimen name="order_foodname_txt_size_colum56">25sp</dimen>
+    <!--5*7  尺寸-->
+    <dimen name="order_simple_height_row7">101dip</dimen>
+    <dimen name="order_simple_height_row8">88dip</dimen>
+    <dimen name="order_simple_height_row9">78dip</dimen>
+    <dimen name="order_simple_height_row10">70dip</dimen>
+    <dimen name="order_simple_height_row11">64dip</dimen>
+    <dimen name="order_simple_height_row12">58dip</dimen>
+    <dimen name="order_food_price_txt_size_row7">25sp</dimen>
+    <dimen name="order_food_cnt_width_row7">40dp</dimen>
+    <dimen name="order_food_cnt_txt_size_row7">25sp</dimen>
+    <dimen name="order_food_num_minus_width_row7">60dp</dimen>
+    <dimen name="order_food_num_minus_txt_size_row7">30sp</dimen>
+    <dimen name="order_foodname_txt_size_row7">25sp</dimen>
+    <dimen name="order_foodname_txt_size_row11">22sp</dimen>
+    <dimen name="order_foodname_txt_size_row12">20sp</dimen>
+    <dimen name="order_main_food_name_left_margin">18dp</dimen>
+    <dimen name="order_main_food_name_top_margin">15dp</dimen>
+    <dimen name="order_main_food_name_top_margin50">10dp</dimen>
+    <dimen name="order_main_food_name_top_margin55">5dp</dimen>
+    <dimen name="order_main_food_name_top_margin60">5dp</dimen>
+    <dimen name="order_main_food_cnt_right_margin">13dp</dimen>
+    <dimen name="order_main_food_cnt_top_margin">4dp</dimen>
+    <dimen name="order_main_food_num_right_margin">5dp</dimen>
+    <dimen name="order_main_food_num_bottom_margin">5dp</dimen>
+    <dimen name="sec_simple_order_food_corner_size">5dp</dimen>
+    <dimen name="sec_simple_order_item_horiz_padding">5dp</dimen>
+    <dimen name="sec_simple_order_food_price_right_margin">8dp</dimen>
+    <dimen name="sec_simple_order_food_price_width">80dp</dimen>
+    <dimen name="sec_simple_order_food_cnt_width">30dp</dimen>
+
+    <dimen name="sec_simple_order_food_name_right_padding">10dp</dimen>
+    <dimen name="sec_simple_order_gv_horiz_space">5dp</dimen>
+    <dimen name="sec_simple_order_gv_vertical_space">5dp</dimen>
+    <dimen name="dishfilter_topbar_height">70dp</dimen>
+    <!--<dimen name="sec_simple_order_food_name_right_padding">3dp</dimen>-->
+    <!--<dimen name="sec_simple_order_gv_horiz_space">5dp</dimen>-->
+    <!--<dimen name="sec_simple_order_gv_vertical_space">4dp</dimen>-->
+    <!--<dimen name="dishfilter_topbar_height">60dp</dimen>-->
+
+    <dimen name="orderx_simple_height_row8">86dip</dimen>
+    <dimen name="orderx_main_food_name_top_margin">10dp</dimen>
+
+    <dimen name="order_select_item_foodname_size">18sp</dimen>
+    <dimen name="orinary_consume_keybord_item_height">120dp</dimen>
+    <dimen name="orinary_consume_keybord_item_width">147dp</dimen>
+    <dimen name="para_config_item_height">112dp</dimen>
+    <dimen name="order_sec_seq_text_size">22sp</dimen>
+    <dimen name="order_main_foodprice_top_margin">18dp</dimen>
+    <dimen name="order_main_foodprice_txt_size">20sp</dimen>
+
+    <dimen name="sec_simple_order_food_item_txt_size">28sp</dimen>
+    <dimen name="dishfilter_save_right_margin">20dp</dimen>
+    <!--<dimen name="sec_simple_order_food_item_txt_size">23sp</dimen>-->
+    <!--<dimen name="dishfilter_save_right_margin">30dp</dimen>-->
+
+    <dimen name="dishfilter_save_width">160dp</dimen>
+    <dimen name="dishfilter_save_height">46dp</dimen>
+    <dimen name="dishfilter_item_height">55dp</dimen>
+    <dimen name="dishfilter_food_item_vertical_space">16dp</dimen>
+    <dimen name="dishfilter_allgoods_panel_horiz_padding">33dp</dimen>
+    <dimen name="dishfilter_allgoods_panel_vertical_padding">20dp</dimen>
+    <dimen name="dishfilter_goodall_vertical_space">5dp</dimen>
+    <dimen name="dishfilter_goodall_horiz_space">5dp</dimen>
+    <dimen name="dialog_swipe_card_error_text_top_margin">20dp</dimen>
+    <dimen name="dialog_swipe_card_error_text_size">25sp</dimen>
+    <dimen name="dialog_purchase_hint_horiz_margin">15dp</dimen>
+    <dimen name="dialog_order_purchase_horiz_line_height">1px</dimen>
+    <dimen name="dish_filter_panel_ordered_foods_height">65dp</dimen>
+    <dimen name="dishFilter_panel_ordered_foods_horiz_padding">20dp</dimen>
+    <dimen name="dishFilter_enabled_goods_left_margin">10dp</dimen>
+    <dimen name="dishFilter_enabled_goods_horiz_space">3dp</dimen>
+    <dimen name="dishFilter_enabled_goods_vertical_space">3dp</dimen>
+    <dimen name="dishFilter_panel_select_material_horiz_padding">20dp</dimen>
+    <dimen name="dishFilter_select_material_left_margin">10dp</dimen>
+    <dimen name="dishFilter_panel_all_material_horiz_padding">20dp</dimen>
+    <dimen name="dishFilter_panel_all_material_top_margin">20dp</dimen>
+    <dimen name="dishFilter_lv_all_material_width">715dp</dimen>
+    <dimen name="dishFilter_lv_all_material_divider_height">5dp</dimen>
+    <dimen name="dishFilter_all_vertical_divider_width">2dp</dimen>
+    <dimen name="dishFilter_all_vertical_divider_hotiz_margin">10dp</dimen>
+    <dimen name="dialog_ordinary_consume_width">681dp</dimen>
+    <dimen name="dialog_ordinary_consume_height">552dp</dimen>
+    <dimen name="dialog_ordinary_consume_padding">40dp</dimen>
+    <dimen name="ordinary_consume_amt_size">25sp</dimen>
+    <dimen name="dialog_ordinary_btn_close_vertical_margin">43dp</dimen>
+
+    <dimen name="orderx_item_goods_category_txt_size">25sp</dimen>
+    <dimen name="orderx_item_goods_category_minwidth">100dp</dimen>
+    <dimen name="orderx_panel_netstate_height">@dimen/order_panel_netstate_height</dimen>
+    <dimen name="orderx_item_goods_category_horiz_padding">22dp</dimen>
+    <dimen name="orderx_panel_goods_category_right_marign">10dp</dimen>
+    <dimen name="dialog_orderx_historybill_height">480dp</dimen>
+    <dimen name="dialog_orderx_historybill_padding">20dp</dimen>
+    <dimen name="dialog_orderx_historybill_title_horiz_padding">15dp</dimen>
+    <dimen name="dialog_orderx_historybill_width">500dp</dimen>
+    <dimen name="dialog_orderx_historybill_item_title_height">45dp</dimen>
+    <dimen name="dialog_orderx_historybill_item_userinfo_left_margin">10dp</dimen>
+    <dimen name="dialog_orderx_historybill_item_reverse_horiz_margin">5dp</dimen>
+    <dimen name="dialog_orderx_historybill_lv_vertical_padding">25dp</dimen>
+    <dimen name="dialog_orderx_historybill_lv_horiz_padding">18dp</dimen>
+    <dimen name="dialog_orderx_historybill_lv_divider_height">19dp</dimen>
+    <dimen name="dialog_orderx_historybill_detail_foodname_right_margin">10dp</dimen>
+    <dimen name="dialog_orderx_historybill_detail_foodamt_width">80dp</dimen>
+    <dimen name="dialog_orderx_historybill_detail_foodnum_right_margin">20dp</dimen>
+    <dimen name="orderx_panel_goods_category_left_padding">20dp</dimen>
+    <dimen name="orderx_sec_panel_hotfood_width">400dp</dimen>
+    <dimen name="sec_orderx_shop_name_txt_size">22sp</dimen>
+    <dimen name="orderx_sec_item_height">222dp</dimen>
+    <dimen name="orderx_sec_item_foodname_size">22sp</dimen>
+    <dimen name="orderx_sec_item_foodprice_size">19sp</dimen>
+    <dimen name="orderx_sec_item_cnt_size">19sp</dimen>
+    <dimen name="orderx_sec_item_recmmand_height">150dp</dimen>
+
+
+    <dimen name="orderx_sec_item_cnt_width">60dp</dimen>
+    <dimen name="orderx_sec_picture_ordered_cnt_size">30sp</dimen>
+    <dimen name="sec_simple_order_gv_horiz_space1">3dp</dimen>
+    <dimen name="sec_simple_order_gv_vertical_space1">3dp</dimen>
+    <dimen name="dialog_orderx_img_close_size">24dp</dimen>
+    <dimen name="dialog_orderx_img_close_left_padding">30dp</dimen>
+    <!--数字软键盘-->
+    <dimen name="keyboard_digit_order_pading">5dp</dimen>
+    <dimen name="keyboard_digit_order_gap">2dp</dimen>
+    <dimen name="keyboard_digit_order_text_size">100sp</dimen>
+    <dimen name="orderx_gv_order_goods_top_margin">10dp</dimen>
+    <dimen name="orderx_gv_order_goods_padding">5dp</dimen>
+    <dimen name="orderx_sec_shopname_height">90dp</dimen>
+    <dimen name="orderx_sec_waitorder_height">80dp</dimen>
+    <dimen name="orderx_sec_hotfood_label_margin">10dp</dimen>
+    <dimen name="orderx_sec_gv_recommend_goods_horiz_margin">5dp</dimen>
+    <dimen name="orderx_sec_item_orderpic_margin">5dp</dimen>
+    <dimen name="orderx_sec_item_recmandfood_pic_padding">5dp</dimen>
+    <dimen name="orderx_sec_item_simple21_padding">10dp</dimen>
+    <dimen name="orderx_sec_item_simple21_foodprice_top_margin">16dp</dimen>
+    <dimen name="orderx_sec_item_simple_vertical_padding">10dp</dimen>
+    <dimen name="orderx_sec_item_simple_left_padding">24dp</dimen>
+    <dimen name="orderx_sec_item_simple_right_padding">30dp</dimen>
+    <dimen name="orderx_sec_item_foodname_right_margin">10dp</dimen>
+    <dimen name="orderx_sec_item_foodprice_right_margin">25dp</dimen>
+    <dimen name="orderx_sec_item_foodcnt_width">40dp</dimen>
+    <dimen name="dialog_weight_width">400dp</dimen>
+    <dimen name="dialog_weight_line_top_margin">20dp</dimen>
+    <dimen name="dialog_order_weight_btn_top_margin">39dp</dimen>
+    <dimen name="dialog_order_weight_btn_bottom_margin">15dp</dimen>
+
+    <dimen name="dialog_weight_left_text_size">30sp</dimen>
+    <dimen name="dialog_weight_right_text_size">35sp</dimen>
+    <dimen name="dialog_order_weight_btn_size">28sp</dimen>
+    <dimen name="dialog_weight_padding">20dp</dimen>
+    <dimen name="dialog_weight_foodname_txt_size">30sp</dimen>
+    <dimen name="dialog_weight_foodinfo_top_margin">30dp</dimen>
+    <dimen name="dialog_order_weight_btn_ok_left_margin">25dp</dimen>
+
+
+    <dimen name="dishfilter_ordered_food_txt_size">28sp</dimen>
+    <dimen name="dialog_order_weight_btn_height">60dp</dimen>
+    <dimen name="orderx_history_order_listitem_txt_size">15sp</dimen>
+    <dimen name="orderx_history_order_listitem_detail_txt_size">15sp</dimen>
+    <dimen name="dialog_orderx_history_order_title_size">24sp</dimen>
+    <dimen name="dialog_orderx_history_order_title_height">50dp</dimen>
+    <dimen name="dishfilter_category_gv_vertical_space">2dp</dimen>
+    <dimen name="item_dishFilter_material_height">54dp</dimen>
+    <dimen name="order_btn_takefood_horiz_margin">10dp</dimen>
+    <dimen name="order_btn_takefood_top_margin">60dp</dimen>
+    <dimen name="order_btn_takefood_vertical_margin">15dp</dimen>
+
+    <!--包间-->
+    <dimen name="order_room_detail_item_pic_width">320dip</dimen>
+    <dimen name="order_room_detail_item_pic_height">220dip</dimen>
+    <dimen name="order_room_detail_item_ordered_cnt_bg_size">50dp</dimen>
+    <dimen name="order_room_detail_item_ordered_cnt_size">50dp</dimen>
+    <dimen name="order_room_detail_item_txt_size">40sp</dimen>
+    <dimen name="order_detail_btn_size">20sp</dimen>
+    <dimen name="activity_room_title_height">70dp</dimen>
+    <dimen name="activity_room_title_right_margin">10dp</dimen>
+    <dimen name="activity_room_title_right_img_padding">8dp</dimen>
+    <dimen name="activity_room_title_tv_size">30sp</dimen>
+    <dimen name="activity_room_title_txt_size">30sp</dimen>
+    <dimen name="activity_room_panel_left_margin">10dp</dimen>
+    <dimen name="activity_room_panel_drawable_padding">5dp</dimen>
+    <dimen name="dialog_pay_option_confirm_top_margin">20dp</dimen>
+    <dimen name="dialog_pay_option_confirm_bottom_margin">20dp</dimen>
+
+    <dimen name="rooms_main_panel_right_width">300dp</dimen>
+    <dimen name="rooms_grid_horiz_space">5dp</dimen>
+    <dimen name="rooms_grid_vertical_space">5dp</dimen>
+    <dimen name="rooms_right_horiz_padding">15dp</dimen>
+    <dimen name="rooms_right_vertical_padding">15dp</dimen>
+    <dimen name="room_detail_pay_area_top_margin">20dp</dimen>
+    <dimen name="room_detail_pay_area_btn_height">70dp</dimen>
+    <dimen name="print_cfg_row_height">72dp</dimen>
+    <dimen name="home_panel_revenue_horiz_margin">20dp</dimen>
+    <dimen name="home_revenue_num_left_margin">50dp</dimen>
+    <!--规格菜品-->
+    <dimen name="item_order_specfood_width">200dp</dimen>
+    <dimen name="item_sec_order_specfood_width">150dp</dimen>
+
+    <dimen name="printer_checkobx_text_size">25sp</dimen>
+
+    <!--副屏-->
+    <dimen name="activity_sec_topbar_height">52dp</dimen>
+    <!--人脸识别-->
+    <dimen name="dialog_face_result_with">300dp</dimen>
+    <dimen name="ecard_home_panel_vertical_padding">20dp</dimen>
+    <dimen name="ecard_home_divider">30dp</dimen>
+    <dimen name="ecard_home_item_left_margin">30dp</dimen>
+    <dimen name="ecard_home_item_right_margin">30dp</dimen>
+    <dimen name="ecard_home_item_bg_corner">15dp</dimen>
+    <dimen name="ecard_home_dtl_item_txt">20sp</dimen>
+    <dimen name="callx_sec_table_left_margin">10dp</dimen>
+
+</resources>
